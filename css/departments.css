@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+
+header {
+    height: 52px;
+    width: 100%;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    justify-content: space-between;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.logo {
+    height: 47px;
+    margin-left: 90px;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+li a {
+    text-decoration: none;
+    color: #666;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    height: 23px;
+    margin-right: 6px;
+}
+
+.communication {
+    margin-right: 30px;
+}
+
+.main { 
+    height: 1200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.head {
+    color: #5a5a5a;
+    margin-top: 50px;
+    margin-left: 150px;
+    font-size: 14px;
+}
+
+.main h1 {
+    color: #484848;
+    margin-left: 150px;
+    margin-top: 50px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+.main p a {
+    color: #2067a4;
+    text-decoration: none;
+}
+
+.main p a:hover {
+    color: #5a5a5a;
+}
+
+.adress-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.adress {
+    height: 20%;
+    width: 20%;
+}
+
+.adress p {
+    color: #5a5a5a;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.adress a {
+    color: #2067a4;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.adress a:hover {
+    color: #5a5a5a;
+}
+
+.a1 {
+    margin-left: 130px;
+}
+
+.bottom {
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+.mapdiv {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-bottom: 30px;
+    margin-top: 50px;
+    width: 100%;
+    height: 420px;
+}
+
+.map {
+    height: 420px;
+    box-sizing: border-box;  
+    display: flex;
+}
+
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 93px;
+    background-color: #f6f6f6;
+    border-top: 1px solid #DDDDDD;
+}
+
+footer div {
+    margin-top: 8px;
+}
+
+footer div a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+}
+
+.icons-social {
+    display: flex;
+    justify-content: center;
+}
+
+.fa {
+    height: 40px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-right: 3px;
+    margin-left: 3px;
+    cursor: pointer;
+}
+
+.icons-cards img {
+    height: 30px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
